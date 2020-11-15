@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         WebView webView = (WebView) findViewById(R.id.web_view);
         webView.getSettings().setJavaScriptEnabled(true);
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("https://www.baidu.com/");
+        webView.loadUrl("http://www.qq.com/");
     }
 
     @Override
